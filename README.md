@@ -2,11 +2,10 @@
 This project implements a predictive maintenance system for air conditioners, leveraging an ESP32 microcontroller and various sensors to monitor equipment health and proactively identify potential issues.
 
 ## Key Features
-* **Real-time Air Conditioner Monitoring:**
-* **Optional Vibration Detection:**
-* **Cloud-Based Data Storage & Visualization:**
-* **Automated Anomaly Detection:**
-* **Actionable Notification System:** 
+* **Real-time Air Conditioner Monitoring**
+* **Cloud-Based Data Storage & Visualization**
+* **Automated Anomaly Detection**
+* **Actionable Notification System** 
 
 ## Prerequisites
 ### Hardware Components
