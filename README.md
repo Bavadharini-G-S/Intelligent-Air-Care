@@ -60,6 +60,10 @@ This project implements a predictive maintenance system for air conditioners, le
 
 1. Upload the final version of the code to your ESP32 device.
 
+### Workflow
+![Critical-to-quality tree-3](https://github.com/Bavadharini-G-S/Intelligent-Air-Care/assets/115529616/38c2028d-dc62-4633-9c0f-0bc561007b8a)
+
+
 ### Screenshots for reference
 <img width="959" alt="image" src="https://github.com/Bavadharini-G-S/Intelligent-Air-Care/assets/115529616/717a39be-48f2-4f27-8878-565c4c923ba2">
 <img width="959" alt="image" src="https://github.com/Bavadharini-G-S/Intelligent-Air-Care/assets/115529616/2120b0fc-28d7-4dd3-9391-b888c4aa0575">
