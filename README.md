@@ -42,15 +42,15 @@ This project implements a predictive maintenance system for air conditioners, le
 
 1. Create an Adafruit IO Account.
 2. Create a dashboard on Adafruit IO to visualize project data feeds (e.g., temperature, humidity).
-3. Modify the WiFi network name (WLAN_SSID), password (WLAN_PASS), Adafruit username (AIO_USERNAME), API key (AIO_KEY), and feed names within the _"PMS_Cloud.io"_ code to match your Adafruit IO setup.
+3. Modify the WiFi network name (WLAN_SSID), password (WLAN_PASS), Adafruit username (AIO_USERNAME), API key (AIO_KEY), and feed names within the _"PMS_Cloud.ino"_ code to match your Adafruit IO setup.
 
 **Google Sheets Integration:**
 
 1. Open a new Google Spreadsheet and set row titles as "Date", "Time", "Temperature", "Humidity", "Vibration", "Air Pressure", and "Air Quality".
 2. Navigate to Extensions > Apps Script within your Google Sheet.
-3. Update "Spread Sheet ID" within the _"PMS_Excel_Apps_script"_ code with the actual ID of your Google Sheet.
+3. Update "Spread Sheet ID" within the _"PMS_Excel_Apps_script.txt"_ code with the actual ID of your Google Sheet.
 4. Deploy the Apps Script code and copy the generated script ID.
-5. Update the GOOGLE_SCRIPT_ID variable in the _"PMS_Cloud.io"_ code with the copied script ID.
+5. Update the GOOGLE_SCRIPT_ID variable in the _"PMS_Cloud.ino"_ code with the copied script ID.
 
 **Zapier Integration:**
 
