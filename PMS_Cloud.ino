@@ -20,9 +20,9 @@
 #include <HTTPClient.h>
 #include <string.h>
 
-#define WLAN_SSID "User-1" //Enter your SSID
-#define WLAN_PASS "12345678"  //Enter your SSID
-#define AIO_SERVER "io.adafruit.com"  //Enter your SSID Password
+#define WLAN_SSID "" //Enter your SSID
+#define WLAN_PASS ""  //Enter your SSID Password
+#define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
 #define AIO_USERNAME "" //Enter your user name of Adafruit IO
 #define AIO_KEY "" //Enter your Adafruit IO Key
@@ -61,6 +61,8 @@ WiFiClient client;
 // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
 //Adafruit_MQTT_Subscribe ledControl = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "/feeds/ledControl");
+
+// Update the feed names here
 Adafruit_MQTT_Publish AirQuality = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/air-quality");
 Adafruit_MQTT_Publish AirPressure = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/air-pressure");
 Adafruit_MQTT_Publish Humidity = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/humidity");
