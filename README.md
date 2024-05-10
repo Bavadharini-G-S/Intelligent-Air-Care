@@ -1,4 +1,4 @@
-# Intelligent-Air-Care
+# Predective Maintenance System
 This project implements a predictive maintenance system, leveraging an ESP32 microcontroller and various sensors to monitor equipment health and proactively identify potential issues.
 
 ## Key Features
