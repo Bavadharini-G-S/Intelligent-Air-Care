@@ -1,8 +1,8 @@
 # Intelligent-Air-Care
-This project implements a predictive maintenance system for air conditioners, leveraging an ESP32 microcontroller and various sensors to monitor equipment health and proactively identify potential issues.
+This project implements a predictive maintenance system, leveraging an ESP32 microcontroller and various sensors to monitor equipment health and proactively identify potential issues.
 
 ## Key Features
-* **Real-time Air Conditioner Monitoring**
+* **Real-time System Monitoring**
 * **Cloud-Based Data Storage & Visualization**
 * **Automated Anomaly Detection**
 * **Actionable Notification System** 
